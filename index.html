@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<main>
+    <div class="info">
+        <h1>Inline JavaScript</h1>
+        <p1>
+        <code>script</code> element. The element can be added in the
+        <code>head</code> section or inside the <code>body</code> element.
+        </p1>
+    </div>
+</main>
+
+<script>
+    const all_code = document.querySelectorAll("code");
+
+    for (let item of all_code){
+        item.innerHTML = `&lt;${item.innerHTML}
+    }
+</script>
+
+</body>
+</html>

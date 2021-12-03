@@ -15,6 +15,7 @@ const backpack = {
         left: 26,
         right: 26,
     },
+
     lid_open: false,
     toggle_lid: function (lid_status){
         updateBackpack("Lid Status Changed!");
